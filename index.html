@@ -1,68 +1,40 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Home | Bilal Taha</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link
-    href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Nunito:300,700' rel='stylesheet' type='text/css'>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/index.js"></script>
-    
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="mainContent">
-	<!--<img id="bilalPic" width="100px" height="100px" />-->
-        <h1>Bilal Taha</h1>
-    </div>
-    <ul id="nav">
-	<li>bilal.taha [at] mail.utoronto.ca | </li>
-    </ul>
-    <div id="main">
-      
-<!--{::nomarkdown}
-<img src="image/BT.jpg" width="25%" style="margin-left: 50px;"/>
-{:/}-->
-
-<p><img src="image/BT.jpg" width="35%" style="margin-left: 50px; float:right; margin-bottom: 50px;" />
-<span style="font-weight: 400;">
-I am a PhD candidate at the University of Toronto, supervised by <a href="https://www.comm.utoronto.ca/~dimitris/">Dimitrios Hatzinakos</a>. 
-I am also a Postgraduate affiliate to the <a href="https://vectorinstitute.ai/">Vector Institute </a>. 
-I am also the recipient of the DiDi scholarship for Biometrics research. My research interests lie at the intersection 
-of signal processing and machine learning implemented in application for health care and biometrics. 
-I am broadly interested in deep learning, generative models and computer vision. 
-I graduated with a B.Sc./M.Sc, both in Electrical and Computer Engineering.
-<br /> <br />
-Before that, I have worked as a research fellow in the Visual Signal Analysis and Processing Center, KU, and Robotics Institute, KU and as an intern at
-<a href="https://icube.unistra.fr/en/">ICUBE Laboratory </a> at the University of Strasbourg.
-
-</span></p>
-
-<h2 id="papers">Selected Papers</h2>
-<p><a class="papertitle" href="https://ieeexplore.ieee.org/abstract/document/9585595">PBGAN: Learning PPG Representations From GAN for Time-Stable and Unique Verification System</a>
-<br /> Dae Yon Hwang, Bilal Taha, Dimitrios Hatzinakos 
-<br /> IEEE Transactions on Information Forensics and Security 2021.</p> 
-
-<p><a class="papertitle" href="https://ieeexplore.ieee.org/abstract/document/9130730">Evaluation of the time stability and uniqueness in PPG-based biometric system</a>
-<br /> Dae Yon Hwang, Bilal Taha, Da Saem Lee, Dimitrios Hatzinakos 
-<br /> IEEE Transactions on Information Forensics and Security 2020.</p> 
-
-<p><a class="papertitle" href="https://ieeexplore.ieee.org/document/9050730">Learned 3D Shape Representations Using Fused Geometrically Augmented Images: Application to Facial Expression and Action Unit Detection</a>
-<br /> Bilal Taha, Munawar Hayat, Stefano Berretti, Dimitrios Hatzinakos, Naoufel Werghi  
-<br /> IEEE Transactions on Circuits and Systems for Video Technology 2020.</p> 
-  
-      
-<h2 id="short-papersmiscellanea">Teaching</h2>
-<p> [Winter 2023] Course Instructor CSC311: Introduction to Machine Learning. </p>
-<p> [Winter 2020, Fall (2020, 2021)] Teaching Assistant ECE 1513: Teaching Assistant for Introduction to Machine Learning. </p>
-<p> [Fall (2019, 2020, 2021)] Teaching Assistant ECE 302: Teaching Assistant for Probability and Applications.</p>
-<p> Previous Teaching Experience: Introduction to computer Programming, Signals and Systems, Electromechanical Systems, University Physics 2.</p>
-<p> </p>      
-
-<br /> <br />
-
-    </div>
+    <header>
+      <nav>
+        <ul id="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <h1>Welcome to My Website</h1>
+        <p>I am Bilal Taha, a PhD candidate specializing in signal processing and machine learning.</p>
+      </section>
+      <section id="news">
+        <h2>Latest News</h2>
+        <ul>
+          <li>New publication accepted at IEEE TIFS (2024).</li>
+          <li>Invited to present research at ML Conference (2024).</li>
+        </ul>
+      </section>
+      <section id="about-research">
+        <h2>About My Research</h2>
+        <p>My research focuses on the intersection of deep learning and healthcare, aiming to develop solutions for real-world problems.</p>
+        <p><a href="research.html">Learn more about my research.</a></p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Bilal Taha. All rights reserved.</p>
+    </footer>
   </body>
 </html>
