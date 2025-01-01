@@ -221,6 +221,100 @@ video {
   width: 100%;
 }
 
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header and Navigation */
+header {
+  background: #007bff;
+  padding: 10px 0;
+}
+
+#nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#nav li {
+  margin: 0 15px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#nav a:hover,
+#nav a.active {
+  color: #ffcc00;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+h1, h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+p, ul {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #555;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+
 /* Research Page Styles */
 .paper {
   display: flex;
